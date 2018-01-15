@@ -1,0 +1,13 @@
+{
+  "name": "mokuji-markdown",
+  "version": "1.0.0",
+  "description": "見出しから目次を作成します",
+  "author": "tanjo",
+  "license": "MIT",
+  "bin": {
+    "mdmokuji": "index.js"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  }
+}

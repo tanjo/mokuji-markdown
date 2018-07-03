@@ -3,7 +3,7 @@
 /**
  * mokuji-markdown
  * index.js
- * Ver. 1.0.4
+ * Ver. 1.0.5
  */
 
 const fs = require('fs');
@@ -14,9 +14,9 @@ const IO = require('./lib/io');
 
 const main = (argv) => {
   commander
-      .version("1.0.4")
+      .version("1.0.5")
       .option('-l, --link', 'Generate link mokuji.')
-      .option('-h, --header', 'H1 is also target. (include 目次)')
+      .option('-v, --header', 'H1 is also target. (include 目次)')
       .option('-t, --target [value]', 'Replace mokuji by pattern.')
       .parse(argv);
 

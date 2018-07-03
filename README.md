@@ -3,9 +3,11 @@ mokuji-markdown
 
 ## 目次
 
-   - [概要](#概要)
-   - [開発環境](#開発環境)
-   - [利用方法](#利用方法)
+- [概要](#概要)
+- [開発環境](#開発環境)
+- [利用方法](#利用方法)
+  - [Install](#install)
+  - [Run](#run)
 
 
 ## 概要
@@ -19,9 +21,13 @@ mokuji-markdown
 
 ## 利用方法
 
+### Install
+
 ```
 npm install -g tanjo/mokuji-markdown
 ```
+
+### Run
 
 ```
 mdmokuji ./README.md

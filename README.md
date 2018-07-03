@@ -32,3 +32,11 @@ npm install -g tanjo/mokuji-markdown
 ```
 mdmokuji ./README.md
 ```
+
+## 注意点
+
+```
+# これが目次になってはいけない
+## これもこれも
+どうすれバインダー
+```

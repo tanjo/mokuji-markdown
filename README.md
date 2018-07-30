@@ -35,6 +35,15 @@ npm install -g tanjo/mokuji-markdown
 mdmokuji ./README.md
 ```
 
+## オプション
+
+- '-l, --link'
+  - Generate link mokuji.
+- '-x, --header'
+  - H1 is also target. (include 目次)
+- '-t, --target [value]'
+  - Replace mokuji by pattern.
+
 ## 注意点
 
 ```
